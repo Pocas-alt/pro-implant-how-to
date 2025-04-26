@@ -1,6 +1,4 @@
 ---
-title: Welcome to Quartz
+title: Sveiki!
 ---
-
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Šiame puslapyje galite rasti instrukcijas, kaio naudotis Pro-implant klinikoje naudojamomis platformomis:)

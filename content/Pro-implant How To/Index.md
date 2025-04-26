@@ -5,10 +5,15 @@ longform:
   workflow: Default Workflow
   sceneFolder: /
   scenes:
-    - Intro
-    - List
     - Microsoft Business Central
     - KIO
+    - Pro-implant
+    - KPO
+    - Amosas
+    - Dental
+    - Sąmatos sukūrimas
+    - Romexis
+    - Panoraminės ar 3D nuotraukos eksportavimas
   sceneTemplate: Templates/Page.md
   ignoredFiles: []
 ---
