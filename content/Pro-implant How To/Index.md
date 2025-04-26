@@ -16,4 +16,5 @@ longform:
     - Panoraminės ar 3D nuotraukos eksportavimas
   sceneTemplate: Templates/Page.md
   ignoredFiles: []
+draft: true
 ---
