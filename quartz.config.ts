@@ -12,9 +12,9 @@ const config: QuartzConfig = {
     pageTitleSuffix: " | Dental Knowledge",  // <-- ✅ A small suffix if you want
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "",  // <-- Empty if you're not using Plausible or Google Analytics yet
-    },
+// analytics: {
+//   provider: "plausible",
+// },
     locale: "en-US",
     baseUrl: "https://pocas-alt.github.io/pro-implant-how-to", // <-- ✅ YOUR Github Pages URL
     ignorePatterns: ["private", "templates", ".obsidian"],
