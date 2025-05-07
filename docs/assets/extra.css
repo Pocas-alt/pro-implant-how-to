@@ -20,6 +20,10 @@
   --md-default-bg-color: #1E1B19;
 }
 
+.md-search__input {
+  color: white !important;
+}
+
 .md-button,
 button,
 input[type="submit"] {
