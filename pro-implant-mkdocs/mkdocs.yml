@@ -1,0 +1,72 @@
+site_name: Pro-implant Gidas
+site_url: https://pocas-alt.github.io/pro-implant-how-to/
+theme:
+  name: material
+  logo: assets/logo.png
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+    - scheme: slate
+      primary: custom
+      accent: custom
+  features:
+    - navigation.expand
+    - navigation.sections
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+  font:
+    text: false
+
+nav:
+  - Home: index.md
+  - Dental:
+    - Sąmatos kūrimas: amosas/dental/samatos-sukurimas/samatos-sukurimas.md
+  - Microsoft Business Central:
+      - Kasos likutis: microsoft-business-central/Grynųjų pinigų likutis/index.md
+      - KIO: microsoft-business-central/kio/kio.md
+      - KPO: microsoft-business-central/kpo/kpo.md
+  - Proimplant Sign: 
+    - Prisijungimas prie panšetės: proimplant-sign/prisijungimas/index.md
+  - Romexis:
+      - Nuotraukos eksportavimas: romexis/panoramines-ar-3d-nuotraukos-eksportavimas/panoramines-ar-3d-nuotraukos-eksportavimas.md
+  - Bendrosios žinios:
+    - Shortcut'ai: g-knowledge/index.md
+  - About: pro-implant.md
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.tasklist
+  - pymdownx.emoji
+  - pymdownx.highlight
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - attr_list
+
+extra_css:
+  - assets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Pocas-alt/pro-implant-how-to
+  favicon: assets/favicon.ico
+  generator: false
+  copyright:
+    text: "© 2025 Pro Implant. Visos teisės saugomos."
+
+plugins:
+  - search

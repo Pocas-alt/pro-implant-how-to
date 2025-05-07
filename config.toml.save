@@ -1,4 +1,0 @@
-baseURL = 'https://pocas-alt.github.io/pro-implant-how-to/' languageCode = 'en-us' title = 'How-To Guides' theme = 'hugo-book'
-
-[params]
-  BookTheme = 'light'
