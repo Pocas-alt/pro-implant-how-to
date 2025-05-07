@@ -4,7 +4,7 @@ title = 'How-To Guides'
 theme = 'hugo-book'
 
 [params]
-  BookTheme = 'light'
+  BookTheme = 'dark'
   BookSection = '*'   # <<< ADD THIS LINE
 
 [markup]
