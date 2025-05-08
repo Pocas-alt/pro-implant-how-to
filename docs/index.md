@@ -15,7 +15,7 @@ Sveiki atvykę į "kompiuterinių žinių centrą", skirtą **Pro-Implant**  sis
 
 ## 💡 Pagalba
 
-Iškilus klausimams, kreipkitės į [Apie](/pro-implant.md) skyrių.
+Iškilus klausimams, kreipkitės į [Apie](pro-implant.md) skyrių.
 
 ---
 _Šį puslapį administruoja Matas. Visos teisės beveik saugomos._

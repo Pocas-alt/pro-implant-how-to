@@ -24,7 +24,7 @@ theme:
     text: false
 
 nav:
-  - Home: index.md
+  - Pagrindinis: index.md
   - Dental:
     - Sąmatos kūrimas: amosas/dental/samatos-sukurimas/samatos-sukurimas.md
   - Microsoft Business Central:
@@ -37,7 +37,7 @@ nav:
       - Nuotraukos eksportavimas: romexis/panoramines-ar-3d-nuotraukos-eksportavimas/panoramines-ar-3d-nuotraukos-eksportavimas.md
   - Bendrosios žinios:
     - Shortcut'ai: g-knowledge/index.md
-  - About: pro-implant.md
+  - Apie: pro-implant.md
 
 markdown_extensions:
   - admonition
