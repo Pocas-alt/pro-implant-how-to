@@ -26,6 +26,7 @@ theme:
 nav:
   - Pagrindinis: index.md
   - Dental:
+    - Kalendorius: amosas/dental/kalendorius/calendar.md
     - Sąmatos kūrimas: amosas/dental/samatos-sukurimas/samatos-sukurimas.md
   - Microsoft Business Central:
       - Kasos likutis: microsoft-business-central/Grynųjų pinigų likutis/index.md

@@ -1,0 +1,179 @@
+{
+  "main": {
+    "id": "dac6223d9c08628f",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b7e80c37a55981f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "87393db6d1228065",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "amosas/dental/kalendorius/calendar.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "abdeb7ef51f0f3c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7110b6477ed5be8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55c7b67d6a31d7f9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "af160fd0a672d6d1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "34aaae9696a9c714",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "28560ce4c4a8f67e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e679bcb6a1814df2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64b01067041799b8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "amosas/dental/kalendorius/calendar.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for calendar"
+            }
+          },
+          {
+            "id": "4170747c0444f0b8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "amosas/dental/kalendorius/calendar.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from calendar"
+            }
+          },
+          {
+            "id": "ff7473f5decc7be1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c811019d3cac9302",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "amosas/dental/kalendorius/calendar.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "87393db6d1228065",
+  "lastOpenFiles": [
+    "amosas/dental/kalendorius/image/dental-6.png",
+    "amosas/dental/kalendorius/image/dental-5.png",
+    "amosas/dental/kalendorius/image/dental-4.png",
+    "amosas/dental/kalendorius/image/dental-2.png",
+    "amosas/dental/kalendorius/image/dental-3.png"
+  ]
+}
