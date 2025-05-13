@@ -8,13 +8,9 @@
       
       
       
-        <link rel="canonical" href="https://pocas-alt.github.io/pro-implant-how-to/amosas/dental/kalendorius/temp-sidebar/">
+        <link rel="canonical" href="https://pocas-alt.github.io/pro-implant-how-to/amosas/dental/kalendorius/visit/">
       
       
-        <link rel="prev" href="../calendar/">
-      
-      
-        <link rel="next" href="../../samatos-sukurimas/samatos-sukurimas/">
       
       
       <link rel="icon" href="../../../../assets/images/favicon.png">
@@ -22,7 +18,7 @@
     
     
       
-        <title>Laikinosios zonos / vizito "pakabinimas" - Pro-implant Gidas</title>
+        <title>Vizito atvaizdavimas - Pro-implant Gidas</title>
       
     
     
@@ -106,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Laikinosios zonos / vizito "pakabinimas"
+              Vizito atvaizdavimas
             
           </span>
         </div>
@@ -240,8 +236,6 @@
       
   
   
-    
-  
   
   
     
@@ -254,11 +248,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -274,7 +270,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Dental
@@ -308,17 +304,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../temp-sidebar/" class="md-nav__link">
         
   
   
@@ -329,7 +318,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -765,38 +753,66 @@
 
 
 
-  <h1>Laikinosios zonos / vizitų "pakabinimas"</h1>
-
-<p><i>Į šias juostas pacientų vizitai įtraukiami tempiant jų vizitus į pasirinktą juostą.</i></p>
-<div style="display: flex; align-items: top; margin-bottom: 20px;">
-  <img src="../image/dental-7.png" alt="Calendar" style="width: 45%; margin-right: 20px;">
-  <div>
-    <p><strong>Laikinoji juosta:</strong><br>
-    Vizitas išimamas iš kalendoriaus, bet paliekama prie jo informacija (vizito pavadinimas, trukmė, gydytojas, pastabos).</p>
-<br><br>
-<p>Į šią juostą įtraukiami pacientai, kuriuos reikia užregistruoti, kiek įmanoma <big>greičiau</big>, nes jie neturi šio vizito. Arba trumpam įtraukiamas vizitas, kai nori jį perkelti į kitą dieną.</p>
-  </div>
-</div>
-
-<div style="display: flex; align-items: top; margin-bottom: 20px;">
-  <img src="../image/dental-8.png" alt="Calendar" style="width: 45%; margin-right: 20px;">
-  <div>
-    <p><strong>Kviesti anksčiau:</strong><br>
-    Vizitas lieka kalendoriuje, bet sukuriamas jam identiškas vizitas. Kai nutempiamas į kalendorių, pradingsta pirminis.</p>
-    <br><br>
-    <p>Į šią juostą įtraukiami pacientai, kuriuos reikia užregistruoti, kiek įmanoma <big>anksčiau</big>. Gydytojo arba paciento prašymu.</p>
-  </div>
-</div>
-
-<div style="display: flex; align-items: top;">
-  <img src="../image/dental-9.png" alt="Calendar" style="width: 45%; margin-right: 20px;">
-  <div>
-    <p><strong>Kviesti higienai:</strong><br>
-    Tokia pati logika kaip „Kviesti anksčiau“.</p>
- <br><br>
-    <p>Į šią juostą įtraukiami pacientai, kuriems artėja "kviesti higienai" registravimo laikas. Ši juosta yra skirta administratorėms susikelti kelių savaičių "kviesti higienai" vizitus iš R kėdės arba kalendoriaus, jeigu laikas su pacientu dar nesutartas</p>
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8">
+  <title>Vizito atvaizdavimas</title>
+  <style>
+    .color-bubble {
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      border-radius: 50%;
+      margin-right: 0.5em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Vizitas</h1>
+  <h2>Šiame skyriuje aprašyti vizito žymėjimai ir ką jie reiškia.</h2>
+  <img src="../image/visit-1.png" alt="Vizito pavyzdys 1">
+  <ol>
+    <li>Spalvinis žymėjimas, kuris gydytojas suteiks paslaugą</li>
+    <li>Ar turime "Sveikatos būklės anketą"? Jeigu taip ikona bus žalia, jeigu ne - raudona</li>
+    <li>Paciento ID numeris.
+      <ul>
+        <li>Juodas - patvirtinimo SMS neišsiųsta</li>
+        <li>Geltonas - SMS sėkmingai išsiųsta</li>
+        <li>Žalias - atvyks</li>
+        <li>Raudonas - neatvyks</li>
+        <li>Violetinis - informuoti nepavyko</li>
+      </ul>
+    </li>
+    <li>Paciento vardas ir pavardė</li>
+    <li>Vizito pavadinimas</li>
+    <li>Vizito pastaba</li>
+    <li>Ar turime pasirašytą naują sutartį? Raudonas apvedimas - ne, žalias - taip</li>
+  </ol>
+  <br><hr><br>
+  <img src="../image/visit-2.png" alt="Vizito pavyzdys 2">
+  <p>Palyte užėjus ant vizito iššoka lentelė su detalesniu žymėjimų paaiškinimu.</p>
+  <p>Burbuliukų prie paciento reikšmės:</p>
+  <ul>
+    <li><span class="color-bubble" style="background-color: #456786;"></span>Jautrūs (turi baimę)</li>
+    <li><span class="color-bubble" style="background-color: #00FF00;"></span>Atvykstantys (kitas miestas)</li>
+    <li><span class="color-bubble" style="background-color: #808000;"></span>Atšaukinėja vizitus</li>
+    <li><span class="color-bubble" style="background-color: #FFD700;"></span>Nemotyvuoti PBH</li>
+    <li><span class="color-bubble" style="background-color: #00FFFF;"></span>Vaikai iki 10 m</li>
+    <li><span class="color-bubble" style="background-color: #FFA500;"></span>Su ligonių kasomis</li>
+    <li><span class="color-bubble" style="background-color: #FF00FF;"></span>Savotiški</li>
+    <li><span class="color-bubble" style="background-color: #0000FF;"></span>Atvykstantys (kita šalis)</li>
+    <li><span class="color-bubble" style="background-color: #000000;"></span>Kortelė sunaikinta</li>
+    <li><span class="color-bubble" style="background-color: #FFFF00;"></span>Pamiršti pacientai</li>
+    <li><span class="color-bubble" style="background-color: #FFC0CB;"></span>BREKETAI</li>
+    <li><span class="color-bubble" style="background-color: #800000;"></span>Implantai</li>
+    <li><span class="color-bubble" style="background-color: #4B0082;"></span>BNI Verslo klubas</li>
+    <li><span class="color-bubble" style="background-color: #808080;"></span>Registuoti tik su avansu</li>
+    <li><span class="color-bubble" style="background-color: #FF0000;"></span>Reiklūs (konfliktiški)</li>
+    <li><span class="color-bubble" style="background-color: #008001;"></span>Vaikai nuo 10 - 18 m.</li>
+  </ul>
+</body>
+</html>
 
 
 

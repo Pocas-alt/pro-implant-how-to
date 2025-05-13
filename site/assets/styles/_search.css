@@ -1,0 +1,24 @@
+/* Style search input text color */
+.md-search__input {
+    color: white !important;
+}
+
+/* Improve visibility of search result text in dark theme */
+.md-search-result__title,
+.md-search-result__content,
+.md-search-result__teaser,
+.md-search-result__meta {
+    color: white !important;
+}
+
+/* Highlight matched search terms */
+mark.md-search-result__highlight {
+    background-color: #FFD580;
+    color: #8e4412;
+}
+
+/* Highlight active search result */
+.md-search-result__article--active mark.md-search-result__highlight {
+    background-color: #FF8C00;
+    color: white;
+}

@@ -1,0 +1,49 @@
+/* Improve text contrast on dark backgrounds */
+.md-typeset {
+    color: #F2F2F2;
+}
+
+/* Style headings inside main content */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+    color: #ffffff;
+}
+
+/* Style links inside main content */
+.md-typeset a {
+    color: #FFD580;
+}
+
+/* Style emphasized text */
+em {
+    color: #d9cba0;
+    font-style: italic;
+}
+
+/* Style strong text */
+strong {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Style inline code appearance */
+code {
+    background-color: #2E2823;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    font-size: 0.95em;
+    color: #FFD580;
+}
+
+/* Style code blocks with border, padding, and scroll */
+pre code {
+    background-color: #2E2823;
+    border: 1px solid #81786D;
+    border-radius: 6px;
+    padding: 1em;
+    display: block;
+    color: #F2F2F2;
+    font-size: 0.9em;
+    overflow-x: auto;
+}

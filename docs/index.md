@@ -18,4 +18,4 @@ Sveiki atvykę į "kompiuterinių žinių centrą", skirtą **Pro-Implant**  sis
 Iškilus klausimams, kreipkitės į [Apie](pro-implant.md) skyrių.
 
 ---
-_Šį puslapį administruoja Matas. Visos teisės beveik saugomos._
+_Šį puslapį administruoja Matas. Visos teisės saugomos._
