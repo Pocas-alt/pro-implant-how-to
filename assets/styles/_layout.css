@@ -34,3 +34,18 @@
     padding-bottom: 2rem;
     background-color: #1D1B19;
 }
+
+/* Footer background and text color */
+.md-footer {
+    background-color: #2E2323;
+    color: #ffffff;
+}
+
+/* Footer links */
+.md-footer a {
+    color: #FFD580;
+}
+
+.md-footer a:hover {
+    text-decoration: underline;
+}
