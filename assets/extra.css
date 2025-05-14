@@ -3,3 +3,13 @@
 @import url('styles/_typography.css');
 @import url('styles/_search.css');
 @import url('styles/_components.css');
+
+body {
+    margin: 1rem;
+}
+
+@media (min-width: 768px) {
+    body {
+        margin: 2rem;
+    }
+}
