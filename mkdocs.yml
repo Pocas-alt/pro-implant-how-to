@@ -20,6 +20,7 @@ theme:
     - search.highlight
     - content.code.copy
     - content.action.edit
+    - content.toc.disable
   font:
     text: false
 
@@ -27,6 +28,7 @@ nav:
   - Pagrindinis: index.md
   - Dental:
     - Kalendorius: amosas/dental/kalendorius/calendar.md
+    - Vizito žymės: amosas/dental/kalendorius/visit.md
     - Laikinosios zonos / vizitų "pakabinimas": amosas/dental/kalendorius/temp-sidebar.md
     - Sąmatos kūrimas: amosas/dental/samatos-sukurimas/samatos-sukurimas.md
   - Microsoft Business Central:
@@ -63,8 +65,8 @@ extra_css:
 
 extra:
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/Pocas-alt/pro-implant-how-to
+    - icon: fontawesome/solid/envelope
+      link: "mailto:matas@odontologas.lt?subject=Pro%20implant%20Gidas%20klausimas"
   favicon: assets/favicon.ico
   generator: false
   copyright:

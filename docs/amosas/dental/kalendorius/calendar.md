@@ -42,9 +42,9 @@ draft: false
       </a>
     </p>
     <ul>
-      <li><strong>Bendras</strong></li>
-      <li><strong>Tik vizitai</strong></li>
-      <li><strong>Tik priminimai</strong></li>
+      <li><em><strong>Bendras</strong></em> Šiame sluoksnyje galima kurti <i>vizitus</i></li>
+      <li><em><strong>Tik vizitai</strong></em> Šiame sluoksnyje galima kurti <i>vizitus</i></li>
+      <li><em><strong>Tik priminimai</strong></em> Šiame sluoksnyje galima kurti <i>priminimus</i></li>
     </ul>
   </li>
   <li><strong>Vartotojo nustatymai</strong></li>

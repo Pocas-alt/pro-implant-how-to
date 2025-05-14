@@ -1,35 +1,21 @@
-/* Style header background and text color */
+/* Viršutinės juostos spalva headeris*/
 .md-header {
-    background-color: #2E2823;
-    color: #ffffff;
+    background-color: #2e2323;
 }
 
-/* Style links and title in header */
+/* Prie logo "Proimplat gidas"spalva//Style links and title in header */
 .md-header a,
 .md-header .md-header__title {
     color: #ffffff;
 }
 
-/* Style sidebar background and text */
-.md-sidebar__inner {
-    background-color: #2E2823;
-    color: #ffffff;
-}
-
-/* Style navigation links and titles */
+/* Meniu blokų pasirenkamų linkų spalva(kairė) ir dešnio meniu bloko "table of contents"spalva */
 .md-nav__link,
 .md-nav__title {
     color: #ffffff;
 }
 
-/* Highlight active and hovered navigation links */
-.md-nav__link--active,
-.md-nav__link:focus,
-.md-nav__link:hover {
-    color: #FFD580;
-}
-
-/* Remove shadows and set background for sidebar and navigation */
+/* Kairiojo ir dešniojo meniu bloko backgroundas*/
 .md-sidebar__inner,
 .md-nav__title,
 .md-nav,
@@ -42,15 +28,41 @@
     background-color: #2E2823;
 }
 
-/* Style secondary sidebar background and remove shadow */
-.md-content__inner .md-sidebar--secondary {
-    background-color: #2E2823;
-    box-shadow: none;
-}
-
-/* Add padding and background color to main content */
+/* Pagrindinė informacijos dalis - turinio fonas */
 .md-content {
     padding-top: 2rem;
     padding-bottom: 2rem;
-    background-color: #1E1B19;
+    background-color: #1D1B19;
+}
+
+/* Footer background and text color */
+.md-footer {
+    background-color: #2E2323;
+    color: #ffffff;
+}
+
+/* Footer links */
+.md-footer a {
+    color: #FFD580;
+}
+
+.md-footer a:hover {
+    text-decoration: underline;
+}
+
+.md-footer-meta__inner {
+    background: transparent !important;
+    box-shadow: none !important;
+    border-top: none !important;
+}
+
+.md-header,
+.md-footer {
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    border-radius: 0;
 }

@@ -27,7 +27,12 @@ draft: false
   <img src="../image/visit-1.png" alt="Vizito pavyzdys 1">
   <ol>
     <li>Spalvinis žymėjimas, kuris gydytojas suteiks paslaugą</li>
-    <li>Ar turime "Sveikatos būklės anketą"? Jeigu taip ikona bus žalia, jeigu ne - raudona</li>
+    <li>Ar supildyta E025 forma?
+      <ul>
+      <li>Raudonas - neužpildyta</li>
+      <li>Geltonas - E025 užregistruota, bet nepasirašyta</li>
+      <li>Žalia - užpildyta ir pasirašyta</li>
+      </ul></li>
     <li>Paciento ID numeris.
       <ul>
         <li>Juodas - patvirtinimo SMS neišsiųsta</li>

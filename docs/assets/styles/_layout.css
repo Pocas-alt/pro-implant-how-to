@@ -34,3 +34,35 @@
     padding-bottom: 2rem;
     background-color: #1D1B19;
 }
+
+/* Footer background and text color */
+.md-footer {
+    background-color: #2E2323;
+    color: #ffffff;
+}
+
+/* Footer links */
+.md-footer a {
+    color: #FFD580;
+}
+
+.md-footer a:hover {
+    text-decoration: underline;
+}
+
+.md-footer-meta__inner {
+    background: transparent !important;
+    box-shadow: none !important;
+    border-top: none !important;
+}
+
+.md-header,
+.md-footer {
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    border-radius: 0;
+}

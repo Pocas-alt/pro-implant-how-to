@@ -7,9 +7,9 @@ menu:
 draft: false
 ---
 
-# 🦷 Pro-implant Gidas
+# 🦷 Pro&#8209;implant Gidas
 
-Sveiki atvykę į "kompiuterinių žinių centrą", skirtą **Pro-Implant**  sistemų naudojimui. Šis puslapis padės gydytojams ir personalui efektyviai naudotis technologijomis.
+Sveiki atvykę į "kompiuterinių žinių centrą", skirtą **Pro&#8209;Implant**  sistemų naudojimui. Šis puslapis padės gydytojams ir personalui efektyviai naudotis technologijomis.
 
 
 

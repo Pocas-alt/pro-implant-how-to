@@ -1,34 +1,11 @@
-:root {
-    --md-primary-fg-color: #3B2F2F;
-    /* dark maroon */
-    --md-accent-fg-color: #FF9900;
-    /* orange */
-    --md-primary-bg-color: #FAF3E0;
-    /* soft beige */
-    --md-default-bg-color: #FFFFFF;
-    /* white */
-}
-
-/* Default color scheme overrides for mkdocs-material (light theme) */
+/* Pagrindinės spalvos */
 [data-md-color-scheme="default"] {
-    --md-primary-fg-color: #1A1A40;
-    /* navy */
-    --md-accent-fg-color: #E63946;
-    /* red-pink */
-    --md-primary-bg-color: #F1FAEE;
-    /* light gray-blue */
-    --md-default-bg-color: #FFFFFF;
-    /* white */
-}
-
-/* Slate color scheme overrides for mkdocs-material (dark theme) */
-[data-md-color-scheme="slate"] {
-    --md-primary-fg-color: #A8DADC;
-    /* teal-cyan */
-    --md-accent-fg-color: #457B9D;
-    /* ocean blue */
-    --md-primary-bg-color: #1D3557;
-    /* deep navy */
-    --md-default-bg-color: #121212;
-    /* dark charcoal */
+    --md-primary-fg-color: #a4a4a4;
+    /* kairiojo meniu pasirintas punktas */
+    --md-primary-bg-color: rgb(255, 255, 255);
+    /* searcho padidinamasis stiklas ikona */
+    --md-accent-fg-color: #ffffff;
+    /* hoverinimo spalva, searcho isjungimo rastu sutampanciu zodziu spalva */
+    --md-default-bg-color: #1D1B19;
+    /* backgroundas "uz visko" */
 }

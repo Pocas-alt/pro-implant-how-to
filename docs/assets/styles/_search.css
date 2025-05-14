@@ -5,7 +5,7 @@
 
 /* Title of the matching document in search results */
 .md-search-result__title {
-    color: #ff0000 !important;
+    color: #FFD580 !important;
 }
 
 /* Snippet of text showing where the match occurred */
@@ -45,4 +45,34 @@
 /* Heading color in search result article */
 .md-search-result__article.md-typeset h1 {
     color: #FFD580 !important;
+}
+
+/* Style all SVG icons with a golden color */
+svg {
+    color: #ffffff !important;
+}
+
+/* Make sure the SVG path uses the currentColor */
+svg path {
+    fill: currentColor !important;
+}
+
+/* Matching text color */
+.md-search-result__article.md-typeset mark {
+    color: #FFD580;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 0 2px;
+}
+
+/* h2 heading inside search result preview */
+.md-search-result__article.md-typeset h2 {
+    color: #FFD580;
+}
+
+.md-search__input::placeholder {
+    color: #bbbbbb;
+    /* Replace with your desired placeholder color */
+    opacity: 1;
+    /* Ensure full visibility in some browsers */
 }
