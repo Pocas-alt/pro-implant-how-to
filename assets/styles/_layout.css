@@ -49,3 +49,9 @@
 .md-footer a:hover {
     text-decoration: underline;
 }
+
+.md-footer-meta__inner {
+    background: transparent !important;
+    box-shadow: none !important;
+    border-top: none !important;
+}
