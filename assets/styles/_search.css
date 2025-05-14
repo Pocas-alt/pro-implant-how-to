@@ -69,3 +69,10 @@ svg path {
 .md-search-result__article.md-typeset h2 {
     color: #FFD580;
 }
+
+.md-search__input::placeholder {
+    color: #bbbbbb;
+    /* Replace with your desired placeholder color */
+    opacity: 1;
+    /* Ensure full visibility in some browsers */
+}
