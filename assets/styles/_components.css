@@ -4,11 +4,11 @@ input[type="email"],
 input[type="number"],
 input[type="password"],
 textarea {
-    background-color: #1F1F1F;
+    background-color: #2e2323;
     /* Search field tik laukelio spalva */
-    color: #CCC;
+    color: #ffffff;
     /* Pokyčių nematau */
-    border: 2px solid #2B2B2B;
+    border: 2px solid #816d6d;
     /* Search field boarder spalva */
     border-radius: 6px;
 }
@@ -21,13 +21,13 @@ input[type="email"] {
 }
 
 textarea {
-    background-color: #1F1F1F !important;
-    color: #CCC !important;
-    border: 1px solid #2B2B2B !important;
+    background-color: #2e2323 !important;
+    color: #ffffff !important;
+    border: 1px solid #816d6d !important;
 }
 
 button[type="submit"] {
-    background-color: #93c5fd !important;
+    background-color: #816d6d !important;
     color: #000000 !important;
     border: none !important;
     border-radius: 4px;
@@ -37,8 +37,8 @@ button[type="submit"] {
 
 /* Sumazinto menu backgroundas Background color for sidebar section titles like "Dental" */
 .md-nav__title {
-    background-color: #1F1F1F !important;
-    color: #CCC !important;
+    background-color: #2E2823 !important;
+    color: #C7BA9D !important;
     padding: 0.3rem 0.6rem;
     border-radius: 6px;
 }

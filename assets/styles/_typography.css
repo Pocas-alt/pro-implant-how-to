@@ -1,39 +1,39 @@
 /* Paprasto teksto spalva */
 .md-typeset {
-    color: #CCC;
+    color: #F2F2F2;
 }
 
 /* headings spalva */
 .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3 {
-    color: #FFF;
+    color: #ffffff;
 }
 
 /* Linko spalva */
 .md-typeset a {
-    color: #93c5fd;
+    color: #FFD580;
 }
 
 /* Style emphasized text listo su paaiskinimu spalva */
 em {
-    color: #d1ccc7;
+    color: #d9cba0;
     font-style: italic;
 }
 
 /* bold spava */
 strong {
-    color: #FFF;
+    color: #ffffff;
     font-weight: bold;
 }
 
 /* Lentelės pavadinimas */
 .md-nav__title {
-    color: #ccc;
+    color: #b6944f;
 }
 
 /* Menu kategorijos */
 .md-ellipsis {
-    color: #aaa;
+    color: #c8b99d;
     /* Replace with your desired color */
 }
