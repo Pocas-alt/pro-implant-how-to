@@ -65,6 +65,9 @@ extra_css:
 
 extra:
   social:
+    - icon: fontawesome/solid/clock-rotate-left
+      link: /docs/updates.html
+      name: Sistemos atnaujinimai
     - icon: fontawesome/solid/envelope
       link: "mailto:matas@odontologas.lt?subject=Pro%20implant%20Gidas%20klausimas"
   favicon: assets/favicon.ico
