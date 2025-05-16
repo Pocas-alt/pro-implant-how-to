@@ -1,18 +1,18 @@
 /* Viršutinės juostos spalva headeris*/
 .md-header {
-    background-color: #2e2323;
+    background-color: #1F1F1F;
 }
 
 /* Prie logo "Proimplat gidas"spalva//Style links and title in header */
 .md-header a,
 .md-header .md-header__title {
-    color: #ffffff;
+    color: #CCC;
 }
 
 /* Meniu blokų pasirenkamų linkų spalva(kairė) ir dešnio meniu bloko "table of contents"spalva */
 .md-nav__link,
 .md-nav__title {
-    color: #ffffff;
+    color: #CCC;
 }
 
 /* Kairiojo ir dešniojo meniu bloko backgroundas*/
@@ -25,25 +25,25 @@
 .md-nav--primary .md-nav__title,
 .md-nav--secondary .md-nav__title {
     box-shadow: none;
-    background-color: #2E2823;
+    background-color: #1F1F1F;
 }
 
 /* Pagrindinė informacijos dalis - turinio fonas */
 .md-content {
     padding-top: 2rem;
     padding-bottom: 2rem;
-    background-color: #1D1B19;
+    background-color: #181818;
 }
 
 /* Footer background and text color */
 .md-footer {
-    background-color: #2E2323;
+    background-color: #1F1F1F;
     color: #ffffff;
 }
 
 /* Footer links */
 .md-footer a {
-    color: #FFD580;
+    color: #93c5fd;
 }
 
 .md-footer a:hover {

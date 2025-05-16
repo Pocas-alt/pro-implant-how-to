@@ -1,31 +1,31 @@
 /* Paieškoje vedamo teksto spalva */
 .md-search__input {
-    color: rgb(255, 255, 255) !important;
+    color: #CCC !important;
 }
 
 /* Title of the matching document in search results */
 .md-search-result__title {
-    color: #FFD580 !important;
+    color: #93c5fd !important;
 }
 
 /* Snippet of text showing where the match occurred */
 .md-search-result__teaser {
-    color: #e0e0e0 !important;
+    color: #d1ccc7 !important;
 }
 
 /* Path or location metadata shown in the search result */
 .md-search-result__meta {
-    color: #999999 !important;
+    color: #d1ccc7 !important;
 }
 
 /* Optional wrapper (not always visually relevant) */
 .md-search-result__content {
-    color: #f0f0f0 !important;
+    color: #d1ccc7 !important;
 }
 
 /* Highlighted keyword in search result title */
 .md-search-result__title mark {
-    background-color: #FFD580;
+    background-color: #93c5fd;
     color: #000000;
     font-weight: bold;
     border-radius: 3px;
@@ -39,17 +39,17 @@
 
 /* Heading color inside search result article */
 .md-search-result__article.md-typeset h1 {
-    color: #FFD580 !important;
+    color: #93c5fd !important;
 }
 
 /* Heading color in search result article */
 .md-search-result__article.md-typeset h1 {
-    color: #FFD580 !important;
+    color: #93c5fd !important;
 }
 
 /* Style all SVG icons with a golden color */
 svg {
-    color: #ffffff !important;
+    color: #CCC !important;
 }
 
 /* Make sure the SVG path uses the currentColor */
@@ -59,7 +59,7 @@ svg path {
 
 /* Matching text color */
 .md-search-result__article.md-typeset mark {
-    color: #FFD580;
+    color: #93c5fd;
     font-weight: bold;
     border-radius: 3px;
     padding: 0 2px;
@@ -67,11 +67,11 @@ svg path {
 
 /* h2 heading inside search result preview */
 .md-search-result__article.md-typeset h2 {
-    color: #FFD580;
+    color: #93c5fd !important;
 }
 
 .md-search__input::placeholder {
-    color: #bbbbbb;
+    color: #888888;
     /* Replace with your desired placeholder color */
     opacity: 1;
     /* Ensure full visibility in some browsers */
