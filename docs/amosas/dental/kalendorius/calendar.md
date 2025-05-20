@@ -40,11 +40,24 @@ draft: false
       <a href="../image/dental-6.png" target="_blank">
         <img src="../image/dental-6.png" alt="Calendar6" width="30%" />
       </a>
+      <a href="../image/dental-10.png" target="_blank">
+        <img src="../image/dental-10.png" alt="Calendar10" width="30%" />
+      </a>
+      <a href="../image/dental-11.png" target="_blank">
+        <img src="../image/dental-11.png" alt="Calendar11" width="30%" />
+      </a>
     </p>
     <ul>
       <li><em><strong>Bendras</strong></em> Šiame sluoksnyje galima kurti <i>vizitus</i></li>
       <li><em><strong>Tik vizitai</strong></em> Šiame sluoksnyje galima kurti <i>vizitus</i></li>
       <li><em><strong>Tik priminimai</strong></em> Šiame sluoksnyje galima kurti <i>priminimus</i></li>
+      <li><em><strong>Ateities vizitai</strong></em> Žaliai dega, jeigu yra sukurtas vizitas su vėlesne data, nei kad matomas kalendoriuje. Raudonai, jeigu nėra</li>
+      <li><em><strong>E025 formos užpildymas</strong></em> Žymi Ar supildyta E025 forma?</li>
+      <ol>
+        <li>Raudonas - neužpildyta</li>
+        <li>Geltonas - E025 užregistruota, bet nepasirašyta</li>
+        <li>Žalia - užpildyta ir pasirašyta</li>
+        </ol>
     </ul>
   </li>
   <li><strong>Vartotojo nustatymai</strong></li>

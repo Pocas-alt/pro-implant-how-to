@@ -61,12 +61,18 @@ markdown_extensions:
   - attr_list
 
 extra_css:
-  - assets/extra.css
+- assets/extra.css
+- assets/styles/_updates.css
+
+# Add a custom static dir if needed
+docs_dir: docs
+site_dir: site
+
 
 extra:
   social:
     - icon: fontawesome/solid/clock-rotate-left
-      link: /docs/updates.html
+      link: https://pocas-alt.github.io/pht/updates.html
       name: Sistemos atnaujinimai
     - icon: fontawesome/solid/envelope
       link: "mailto:matas@odontologas.lt?subject=Pro%20implant%20Gidas%20klausimas"
